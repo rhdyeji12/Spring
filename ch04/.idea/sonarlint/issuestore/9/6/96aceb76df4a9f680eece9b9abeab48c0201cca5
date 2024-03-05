@@ -1,0 +1,10 @@
+
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¿—Íèà1
+G	java:S106"+Replace this use of System.out by a logger.(Öä‹î8Á—Íèà1
+`
+java:S1128"DRemove this unused import 'jakarta.servlet.http.HttpServletRequest'.(õ38ãÌĞèà1
+g
+java:S1128"ERemove this unused import 'jakarta.servlet.http.HttpServletResponse'.(ÂÓÕÇÿÿÿÿÿ8ãÌĞèà1
+s
+java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.RequestParam'.(Â¬À·ùÿÿÿÿ8ãÌĞèà1

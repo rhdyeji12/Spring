@@ -1,0 +1,5 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÉÊ—ùÿÿÿÿ8ÿàÊåà1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8Éñâåà1
+G	java:S106"+Replace this use of System.out by a logger.(Öä‹î8ƒáÊåà1

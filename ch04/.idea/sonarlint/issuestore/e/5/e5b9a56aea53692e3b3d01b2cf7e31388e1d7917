@@ -1,0 +1,15 @@
+
+r
+java:S1192%"UDefine a constant instead of duplicating this literal "redirect:/user1/list" 3 times.(Ïå ³8›Œ»êà1
+_
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8«õ¢êà1
+G	java:S106"+Replace this use of System.out by a logger.(Öä‹î8­õ¢êà1
+L	java:S1065"+Replace this use of System.out by a logger.(™‘Ö«ùÿÿÿÿ8®õ¢êà1
+L	java:S106>"+Replace this use of System.out by a logger.(™‘Ö«ùÿÿÿÿ8¯õ¢êà1
+G	java:S106G"+Replace this use of System.out by a logger.(Öä‹î8·Œ»êà1
+`
+java:S1128"DRemove this unused import 'jakarta.servlet.http.HttpServletRequest'.(õ38ŠĞ»êà1
+g
+java:S1128"ERemove this unused import 'jakarta.servlet.http.HttpServletResponse'.(ÂÓÕÇÿÿÿÿÿ8ŠĞ»êà1
+g
+java:S1128"ERemove this unused import 'org.springframework.stereotype.Component'.(Ş÷Ñ¸ÿÿÿÿÿ8ŠĞ»êà1
