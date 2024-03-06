@@ -1,0 +1,7 @@
+
+r
+java:S1192,"UDefine a constant instead of duplicating this literal "redirect:/user1/list" 3 times.(Ïå ³8ïˆµ–á1
+^
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ş‹É
+@	java:S106&"+Replace this use of System.out by a logger.(Öä‹î
+E	java:S1062"+Replace this use of System.out by a logger.(™‘Ö«ùÿÿÿÿ
