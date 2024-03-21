@@ -11,9 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -24,7 +22,7 @@ import java.util.List;
 public class ArticleController {
 
     private final ArticleService articleService;
-    private final FileService fileService;
+
 
     /*
         @ModelAttribute("cate")
@@ -71,11 +69,7 @@ public class ArticleController {
         return "/article/view";
     }
 
-
-    @GetMapping("/article/fileDownload")
-    public ResponseEntity<?> fileDownload(int fno) {
-        return fileService.fileDownload(fno);
-    }
+    // fileDownload 메서드 FileController로 이동
 
 
 }
