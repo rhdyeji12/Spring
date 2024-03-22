@@ -15,9 +15,17 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 @Configuration
 @EnableAspectJAutoProxy
 public class RootConfig {
+
     // 빌드 정보 객체를 주입 받기 위해 build.gradle 파일 맨 밑에 buildInfo() 실행 해야됨
     @Autowired
     private BuildProperties buildProperties;
+
+    @Bean
+    public AppInfo appInfo(){
+        String name = buildProperties.getName();
+        String version = buildProperties.getVersion();
+        return new AppInfo(name, version);
+    }
 
     @Bean
     public ModelMapper modelMapper(){

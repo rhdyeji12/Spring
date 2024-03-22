@@ -72,15 +72,13 @@ public class CommentService {
         // 수정하기 전에 먼저 존재여부 확인
         Optional<Article> optArticle = articleRepository.findById(articleDTO.getNo());
 
-
         if(optArticle.isPresent()){
 
             Article article = optArticle.get();
+
             // 어쭬수 없이 Article 엔티티에 @Setter 선언해서 수정하기
             article.setContent(articleDTO.getContent());
-
             log.info("article : " + article);
-
 
             Article modifiedArticle = articleRepository.save(article);
 
